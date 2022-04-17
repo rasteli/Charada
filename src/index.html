@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="/assets/code.ico" type="image/x-icon" />
 
     <!-- Styles -->
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/footer.css" />
+
+    <!-- Scripts -->
+    <script src="index.js" defer></script>
 
     <!-- SEO -->
     <meta name="keywords" content="Programação, Scratch, Sustentabilidade" />
@@ -28,16 +30,21 @@
     />
 
     <title>Projeto Estágio</title>
+    <link rel="icon" href="/assets/code.ico" type="image/x-icon" />
   </head>
   <body>
+    <noscript>
+      <h3>Your browser does not support JavaScript or it is disabled.</h3>
+    </noscript>
+
     <header>
       <div class="bg-image"></div>
       <div class="content">
         <nav class="navbar">
           <ul class="options">
-            <li>01 : HOME</li>
-            <li>02 : PROJETOS</li>
-            <li>03 : SOBRE</li>
+            <li onclick="scrollDiv(1)">01 : HOME</li>
+            <li onclick="scrollDiv(2)">02 : PROJETOS</li>
+            <li onclick="scrollDiv(3)">03 : SOBRE</li>
           </ul>
         </nav>
         <div class="info">
@@ -51,7 +58,7 @@
     </header>
 
     <main>
-      <div class="HOME">
+      <div class="HOME" id="HOME">
         <h1>SUSTENTABILIDADE</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
@@ -68,10 +75,10 @@
           Libero?
         </p>
       </div>
-      <div class="PROJETOS">
+      <div class="PROJETOS" id="PROJETOS">
         <h1>PROJETOS</h1>
       </div>
-      <div class="SOBRE">
+      <div class="SOBRE" id="SOBRE">
         <h1>SOBRE</h1>
         <p>
           Este site foi feito como projeto de um estágio universitário que visa
@@ -80,8 +87,7 @@
         <p>
           Feito pelos alunos do curso de
           <strong><em>Ciência da Computação</em></strong> no
-          <strong><em>Centro Universitário Barão de Mauá</em></strong
-          >.
+          <strong><em>Centro Universitário Barão de Mauá.</em></strong>
         </p>
       </div>
     </main>
