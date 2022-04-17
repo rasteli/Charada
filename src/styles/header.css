@@ -11,7 +11,7 @@ header .bg-image {
   background-repeat: no-repeat;
   background-size: cover;
 
-  filter: blur(4px) brightness(0.7);
+  filter: blur(3px) brightness(0.7);
   /* -webkit-filter: blur(4px); */
   position: relative;
 }
@@ -26,7 +26,7 @@ header .content {
 }
 
 .navbar {
-  padding-top: 2px;
+  padding-top: 5px;
 }
 
 .navbar .options {
