@@ -40,7 +40,10 @@
     <header>
       <div class="bg-image"></div>
       <div class="content">
-        <nav class="navbar">
+        <!-- Input e label são responsáveis pela responsividade da navbar -->
+        <input type="checkbox" id="checkbox" />
+        <label for="checkbox" class="hamburger">&#9776;</label>
+        <nav class="navbar" id="navbar">
           <ul class="options">
             <li onclick="scrollDiv(1)">01 : HOME</li>
             <li onclick="scrollDiv(2)">02 : PROJETOS</li>
@@ -59,7 +62,7 @@
 
     <main>
       <div class="HOME" id="HOME">
-        <h1>SUSTENTABILIDADE</h1>
+        <h1 class="section-title">SUSTENTABILIDADE</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
           bibendum justo orci, ac ullamcorper lorem ultricies vitae. Suspendisse
@@ -76,16 +79,27 @@
         </p>
       </div>
       <div class="PROJETOS" id="PROJETOS">
-        <h1>PROJETOS</h1>
+        <h1 class="section-title">PROJETOS</h1>
+        <div class="content">
+          <div class="projeto">
+            <div class="bottom-panel">
+              <h1>Projeto 1</h1>
+            </div>
+          </div>
+          <div class="projeto">
+            <div class="bottom-panel">
+              <h1>Projeto 1</h1>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="SOBRE" id="SOBRE">
-        <h1>SOBRE</h1>
+        <h1 class="section-title">SOBRE</h1>
         <p>
           Este site foi feito como projeto de um estágio universitário que visa
-          ensinar lógica de programação para crianças do ensino fundamental.
-        </p>
-        <p>
-          Feito pelos alunos do curso de
+          ensinar lógica de programação para crianças do ensino fundamental
+          através do desenvolvimento de projetos com rigor sustentável. Feito
+          pelos alunos do curso de
           <strong><em>Ciência da Computação</em></strong> no
           <strong><em>Centro Universitário Barão de Mauá.</em></strong>
         </p>

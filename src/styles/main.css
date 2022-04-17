@@ -2,7 +2,7 @@ main {
   margin: 30px;
 }
 
-main h1 {
+main h1.section-title {
   margin-top: 30px;
   font-size: 36px;
   color: #305e28;
@@ -12,4 +12,60 @@ main p {
   margin-top: 10px;
   font-size: 20px;
   text-align: justify;
+}
+
+main .PROJETOS .content {
+  margin-top: 10px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.PROJETOS .content .projeto {
+  background-image: url("/assets/chia.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  min-height: 200px;
+  position: relative;
+
+  cursor: pointer;
+  transition: background-size 200ms;
+}
+
+.PROJETOS .content .projeto:hover {
+  background-size: 120%;
+}
+
+.projeto .bottom-panel {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  min-height: 50px;
+  background-color: #d3d3d3;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.bottom-panel h1 {
+  margin-left: 5px;
+  font-size: 30px;
+  color: #305e28;
+}
+
+@media (max-width: 540px) {
+  main .PROJETOS .content {
+    grid-template-columns: 1fr;
+  }
+
+  main h1.section-title {
+    font-size: 30px;
+  }
 }
