@@ -93,7 +93,7 @@ input[type="checkbox"] {
 
 @media (max-width: 540px) {
   .info p {
-    font-size: 26px;
+    font-size: 28px;
   }
 
   .hamburger {
@@ -101,17 +101,23 @@ input[type="checkbox"] {
   }
 
   input[type="checkbox"]:checked ~ .navbar {
-    display: block;
+    /* display: block; */
+    position: absolute;
+    top: 0;
+
+    transition: top 200ms;
   }
 
   .navbar {
-    display: none;
+    /* display: none; */
     width: 100%;
     padding: 5px;
     background-color: #50bd55;
 
     position: absolute;
-    top: 0;
+    top: -100%;
+
+    transition: top 200ms;
   }
 
   .navbar .options {
@@ -127,7 +133,11 @@ input[type="checkbox"] {
 }
 
 @media (max-width: 400px) {
+  header {
+    height: 200px;
+  }
+
   .info p {
-    font-size: 22px;
+    font-size: 24px;
   }
 }
