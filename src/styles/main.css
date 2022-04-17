@@ -22,7 +22,7 @@ main .PROJETOS .content {
 }
 
 .PROJETOS .content .projeto {
-  background-image: url("/assets/chia.jfif");
+  background-image: url("../assets/chia.jfif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
