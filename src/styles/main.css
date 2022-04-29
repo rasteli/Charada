@@ -12,16 +12,34 @@ main p {
   margin-top: 10px;
   font-size: 20px;
   text-align: justify;
+  color: #464646;
 }
 
-main .PROJETOS .content {
+main h2.subtitle {
+  color: #22451b;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+main ul.types {
+  list-style: inside;
+  font-size: 20px;
+  margin-left: 15px;
+  color: #464646;
+}
+
+.types ul.type-explanation {
+  margin-left: 15px;
+}
+
+main .PROJETOS .projects-container {
   margin-top: 10px;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.PROJETOS .content .projeto {
+.PROJETOS .projects-container .project {
   background-image: url("../assets/chia.jfif");
   background-position: center;
   background-repeat: no-repeat;
@@ -37,11 +55,11 @@ main .PROJETOS .content {
   transition: background-size 200ms;
 }
 
-.PROJETOS .content .projeto:hover {
+.PROJETOS .projects-container .project:hover {
   background-size: 120%;
 }
 
-.projeto .bottom-panel {
+.project .bottom-panel {
   position: absolute;
   bottom: 0;
 
@@ -61,7 +79,7 @@ main .PROJETOS .content {
 }
 
 @media (max-width: 540px) {
-  main .PROJETOS .content {
+  main .PROJETOS .projects-container {
     grid-template-columns: 1fr;
   }
 
