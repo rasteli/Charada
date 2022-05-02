@@ -24,9 +24,9 @@ main h2.subtitle {
 
 main ul.types {
   list-style: inside;
-  font-size: 18px;
+  font-size: 20px;
   margin-left: 15px;
-  text-align: justify;
+  color: #464646;
 }
 
 .types ul.type-explanation {
@@ -70,7 +70,7 @@ main .PROJETOS .projects-container {
 
   display: flex;
   align-items: center;
-  justify-projects-container: flex-start;
+  justify-content: flex-start;
 }
 
 .bottom-panel h1 {
