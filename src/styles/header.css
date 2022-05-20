@@ -42,11 +42,11 @@ header .content {
   text-shadow: 3px 3px 3px #00000080;
 
   cursor: pointer;
-  transition: color 200ms;
+  transition: color 250ms;
 }
 
 .options li:hover {
-  color: #282a36;
+  color: #69f66e;
 }
 
 .content .info {
@@ -129,6 +129,10 @@ input[type="checkbox"] {
   .navbar .options li {
     text-shadow: none;
     margin-bottom: 10px;
+  }
+
+  .navbar .options li:hover {
+    color: #282a36;
   }
 }
 
