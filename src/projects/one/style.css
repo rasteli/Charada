@@ -13,9 +13,6 @@ header {
   align-items: center;
 
   margin-bottom: 50px;
-
-  position: sticky;
-  top: 0;
 }
 
 header a {
