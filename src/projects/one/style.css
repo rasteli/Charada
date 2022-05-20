@@ -21,14 +21,12 @@ header a {
 }
 
 /* MAIN */
-main {
+main .game {
   display: flex;
   flex-direction: row;
 
   align-items: center;
   justify-content: center;
-
-  height: 100%;
 }
 
 main a {
@@ -68,6 +66,21 @@ main a:hover {
   word-wrap: break-word;
 }
 
+/* SECTION */
+main section {
+  margin: 20px;
+}
+
+main section h1 {
+  font-size: 36px;
+  color: #305e28;
+}
+
+main section p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
 /* FOOTER */
 footer {
   position: absolute;
@@ -84,7 +97,7 @@ footer {
 }
 
 @media (max-width: 790px) {
-  main {
+  main .game {
     flex-direction: column;
   }
 
@@ -99,5 +112,9 @@ footer {
 
   .game-info h3 {
     font-size: 22px;
+  }
+
+  footer {
+    position: unset;
   }
 }
