@@ -14,7 +14,7 @@ conhecimento envolvendo tecnologia e computação para tais crianças, bem como
 engajar as mesmas a temas envolvendo o meio-ambiente. Portanto, desenvolvemos um website,
 no qual constam definições e informações sobre o nosso trabalho.
 
-## [CLIQUE PARA ACESSAR O WEBISTE](https://projeto-estagio.vercel.app/)
+## [CLIQUE PARA ACESSAR O WEBSITE](https://projeto-estagio.vercel.app/)
 
 > **Página principal**
 
