@@ -39,8 +39,15 @@ main .PROJETOS .projects-container {
   grid-template-columns: 1fr 1fr;
 }
 
+.PROJETOS .projects-container .project:nth-child(1) {
+  background-image: url("../assets/p1.webp");
+}
+
+.PROJETOS .projects-container .project:nth-child(2) {
+  background-image: url("../assets/p2.jpg");
+}
+
 .PROJETOS .projects-container .project {
-  background-image: url("../assets/chia.jfif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
