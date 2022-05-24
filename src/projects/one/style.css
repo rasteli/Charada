@@ -90,11 +90,10 @@ main a:hover {
 }
 
 .sprites {
+  width: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  width: 10%;
 }
 
 /* FOOTER */
@@ -109,6 +108,10 @@ main a:hover {
 @media (max-width: 950px) {
   .text-box {
     text-align: left;
+  }
+
+  .sprites {
+    width: 100%;
   }
 }
 
