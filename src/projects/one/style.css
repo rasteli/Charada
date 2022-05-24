@@ -67,28 +67,43 @@ main a:hover {
 }
 
 /* SECTION */
-main section {
+.tutorial {
   margin: 20px;
 }
 
-main section h1 {
-  font-size: 36px;
+.tutorial h1,
+.tutorial h2,
+.tutorial h3,
+.tutorial h4 {
+  margin-top: 20px;
   color: #305e28;
 }
 
-main section p {
+.tutorial h1 {
+  font-size: 36px;
+}
+
+.tutorial p {
   margin-top: 10px;
   font-size: 20px;
   color: #464646;
 }
 
+.sprites {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 10%;
+}
+
 /* FOOTER */
-footer {
+/* footer {
   position: absolute;
   bottom: 0;
   right: 0;
   left: 0;
-}
+} */
 
 /* MEDIA */
 @media (max-width: 950px) {
